@@ -1,0 +1,14 @@
+You need libmysqlclient-dev and libpcap-dev before install.
+
+For Debian, just enter
+    
+    # aptitude install libmysqlcilent-dev libpcap-dev
+
+Then
+
+	$ ./configure
+	$ make
+	# make install
+
+Last step, copy sshband.conf to /etc/sshband.conf if needed.
+
